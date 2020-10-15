@@ -1,0 +1,19 @@
+{
+    "modules": {
+        "user": {
+            "group_module": "User",
+            "label": "User",
+            "actions": {
+                "info": {
+                    "value": 1,
+                    "label": "Info"
+                },
+                "login":{
+                    "value":2,
+                    "label":"Login"
+                }
+            }
+        }
+    },
+    "override_url": {}
+}

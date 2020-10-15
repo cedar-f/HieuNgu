@@ -1,0 +1,26 @@
+{
+    "modules":{
+        "home_page":{
+            "group_module":"Default",
+            "label":"Home Page",
+            "actions":{
+                "index":{
+                    "value":1,
+                    "label":"Index"
+                },
+                "test":{
+                    "value":2,
+                    "label":"Test"
+                }
+            }
+        }
+    },
+    "override_url":{
+        "trang-chu":{
+            "module":"home_page",
+            "actions":{
+                "danh-sach":"index"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "environment":"default",
+    "server":{
+        "host":"127.0.0.1",
+        "port":8080
+    },
+    "mysql":{
+        "host":"127.0.0.1",
+        "port":3306,
+        "database":"nodejs_test",
+        "user":"huu",
+        "password":"12345678",
+        "connection_type":"single"
+    },
+    "system":{
+        "asset_folder":"/asset",
+        "default_module":"HomePage"
+    }
+}

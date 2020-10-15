@@ -1,0 +1,42 @@
+{
+    "name": "nh-core",
+    "version": "1.0.0",
+    "description": "nodejs core",
+    "main": "index.js",
+    "scripts": {
+        "h-dev": "nodemon  http.js --env=dev",
+        "h-pro": "nodemon  http.js --env=pro",
+        "a-dev": "nodemon  api.js --env=dev",
+        "a-pro": "nodemon  api.js --env=pro",
+        "eslint": "eslint application",
+        "lint": "eslint --fix --ext .js,.jsx ."
+    },
+    "author": "huu mai",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "config": "^3.2.4",
+        "cookie-parser": "^1.4.4",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "ejs": "^3.0.1",
+        "eslint-config-airbnb": "^18.0.1",
+        "express": "^4.17.1",
+        "extends-classes": "^1.0.5",
+        "http": "0.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "mysql": "^2.17.1",
+        "node-querybuilder": "^2.1.1",
+        "os": "^0.1.1",
+        "q": "^1.5.1",
+        "util": "^0.12.1",
+        "winston": "^3.2.1",
+        "yargs": "^15.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-vue-libs": "^4.0.0"
+    }
+}
